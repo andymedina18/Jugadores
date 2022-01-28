@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+
+//Base
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+//Configuración firebase de aplicación web
+<script> 
+  const firebaseConfig = {
+    apiKey: "AIzaSyB-16YXAONb7uxDFxb33jltpK9Z7Lx5WoI",
+    authDomain: "pelota-en-movimiento-66bff.firebaseapp.com",
+    databaseURL: "https://pelota-en-movimiento-66bff-default-rtdb.firebaseio.com",
+    projectId: "pelota-en-movimiento-66bff",
+    storageBucket: "pelota-en-movimiento-66bff.appspot.com",
+    messagingSenderId: "1074412640025",
+    appId: "1:1074412640025:web:a1da690aa21b8139005788"
+  }
+
+  //Inicialización
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/Player.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  </body>
+</html>
